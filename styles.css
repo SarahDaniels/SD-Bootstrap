@@ -34,7 +34,12 @@
   background: #5e4485;
   border: 2px solid #fff;
 }
-
+@media (max-width: 900) {
+.fa {
+  font-size: 20px;
+  padding: 10px;
+}
+  }
 @media (max-width: 600) {
   .carousel-caption {
     display: none;
@@ -65,7 +70,7 @@ footer {
 
 .fa {
   padding: 15px;
-  font-size: 30px;
+  font-size: 25px;
   color: #fff;
 }
 
